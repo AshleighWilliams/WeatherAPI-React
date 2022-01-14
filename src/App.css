@@ -1,0 +1,24 @@
+/*external css for app.css*/
+
+.App,
+Body {
+  background-color: lightblue;
+}
+/*above styles the entire body of the app.*/
+
+.container {
+  margin-top : 60px;
+  padding : 35px;
+  background-color : lightblue;   
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*above styles the container element.*/
+
+h1,
+.form-container,
+.weather-container {
+  text-align: center;
+}
+/*above styles the heading, form and weather container.*/

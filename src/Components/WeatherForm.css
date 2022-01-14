@@ -1,0 +1,54 @@
+/*external css for weatherforms.js*/
+
+.App,
+Body {
+    background-color: lightblue;
+}
+/*above styles the body of the app.*/
+
+form {
+	margin-top: 70px;
+}
+/*above styles the form.*/
+
+form input[name="city"],
+form input[name="country"] {
+	background-color: transparent;
+	margin-bottom: 20px;
+	font-weight: 600;
+	font-size: 22px;
+	border: 0;
+	border-bottom: 2px solid white;
+	border-radius: 0;
+}
+/*above styles the form inputs.*/
+
+.btn-dark {
+	font-size: 18px;
+	padding: 8px 15px;
+	color: lightblue;
+}
+/*above styles the button of the form.*/
+
+.btn-dark:hover {
+	background-color: lightblue(255, 202, 182);
+}
+/*above styles the button of the form when hovered over.*/
+
+form input {
+	border-color: black !important;
+}
+/*above styles the form input.*/
+
+form input:focus {
+	background-color: transparent !important;
+	box-shadow: none !important;
+	color: rgb(20, 23, 37) !important;
+	border-color:black !important;
+}
+/*above styles the form input when focused.*/
+
+form input::-webkit-input-placeholder {
+	color: rgba(20, 23, 37, 0.8) !important;
+}
+/*above styles the form input placeholders.*/
